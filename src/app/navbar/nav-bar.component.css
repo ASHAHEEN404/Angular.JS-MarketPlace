@@ -1,0 +1,70 @@
+.custom-navbar {
+  background-color: #1e1e1e; /* Darker background for a sleek look */
+  color: #f1f1f1;
+  padding: 10px 20px; /* Added padding for a cleaner look */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+.nav-link {
+  color: #f1f1f1 !important;
+  font-weight: 600;
+  letter-spacing: 0.5px; /* Slight letter spacing for elegance */
+  text-transform: uppercase;
+  transition: color 0.3s ease-in-out; /* Smooth hover transition */
+}
+
+.nav-link:hover {
+  color: #ff8c00 !important; /* Slightly lighter orange for better hover effect */
+}
+
+.navbar-toggler {
+  border-color: #ff8c00;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-list" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M2.5 12.5a.5.5 0 0 0 0 1h11a.5.5 0 0 0 0-1h-11zm0-4a.5.5 0 0 0 0 1h11a.5.5 0 0 0 0-1h-11zm0-4a.5.5 0 0 0 0 1h11a.5.5 0 0 0 0-1h-11z"/></svg>');
+}
+
+.cart-link {
+  display: flex;
+  align-items: center;
+  position: relative;
+  transition: transform 0.2s ease-in-out; /* Add smooth hover effect */
+}
+
+.cart-link:hover {
+  transform: scale(1.1); /* Slight scale on hover */
+}
+
+.cart-icon {
+  display: flex;
+  align-items: center;
+}
+
+.cart-text {
+  font-size: 1.4rem; /* Adjusted size for better readability */
+  margin-right: 10px; /* More space between icon and counter */
+}
+
+.cart-badge {
+  background-color: #ff8c00;
+  color: #ffffff;
+  font-size: 13px;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px; /* More space between icon and counter */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Added shadow to badge */
+}
+
+.active {
+  color: #ff8c00 !important;
+  font-weight: 700; /* Bolder active link */
+}
+
+.navbar-collapse {
+  transition: all 0.3s ease-in-out; /* Smooth transition for collapse */
+}
